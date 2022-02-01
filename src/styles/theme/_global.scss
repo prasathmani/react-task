@@ -1,0 +1,17 @@
+// Global component styles
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: $body-bg;
+}
+
+a {
+  &:focus {
+    outline: none;
+  }
+}
